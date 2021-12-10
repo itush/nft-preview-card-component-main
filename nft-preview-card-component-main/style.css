@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+/*Primary*/
+--Soft-blue: hsl(215, 51%, 70%);
+--Cyan: hsl(178, 100%, 50%);
+/*Neutral*/
+--main-BG: hsl(217, 54%, 11%);
+--card-BG: hsl(216, 50%, 16%);
+--line: hsl(215, 32%, 27%);
+--white: hsl(0, 0%, 100%);
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    background: var(--main-BG);
+}
+#eqimg{
+    padding: 5%;
+    object-fit: contain;
+    max-width: 100%;
+    border-radius: 10px;  
+    position: relative; 
+}
+.iconview{
+    padding: 11%;
+    opacity: 5%;
+    margin-top: -28.9%;
+    margin-left: 1.8%;
+    border-radius: 1px;
+    background: var(--Cyan);
+    z-index: 1;
+    position: absolute;
+}
+.iconview:hover{opacity: .5;
+    cursor: pointer;}
+#ethicon{
+    padding-left: 5%;
+}
+.card{
+    background: var(--card-BG);
+    margin: 10% 35%;
+    border-radius: 10px;
+}
+
+h1{
+    color: var(--white);
+    padding: 3% 0% 3% 5%;
+    font-size: larger;
+}
+h1:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+}
+p{color:var(--Soft-blue);
+font-weight: 300;}
+
+#p1{
+    padding: 3% 0% 3% 5%;    
+}
+#p2{
+    color: var(--Cyan);
+}
+hr{margin: 3% 5%;
+    background: var(--line);
+}
+#clkimg{ padding-left: 33%;}
+span{ color: var(--Soft-blue);}
+
+.btmdiv{
+    display: flex;
+    /*border-top: 2px solid var(--line);
+    border-top: 80%;*/
+}
+
+#avtrimg{
+height: 75px;
+width: 75px;
+border: 2px solid white;
+border-radius: 50%;
+margin: 5%;}
+h5{padding-top: 15%;
+    color: var(--white);
+font-weight: 300;}
+h5:hover{
+    color: var(--Cyan);
+    cursor: pointer;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
