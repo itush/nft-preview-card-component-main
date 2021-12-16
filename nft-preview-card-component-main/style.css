@@ -62,12 +62,16 @@ p{  color:var(--Soft-blue);
    }
 #p2{
     color: var(--Cyan);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 5%;
 }
 #clkimg{ padding-left: 25%;
          margin-top: 10%;   }
 span{ color: var(--Soft-blue);}
 .btmdiv{
     display: flex;}
+    hr{border-style: inset;
+    border-width: thin;}
 #avtrimg{max-width: 55px;
     border: 2px solid var(--white);
     border-radius: 50%;
