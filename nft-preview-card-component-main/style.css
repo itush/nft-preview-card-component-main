@@ -78,11 +78,13 @@ span{ color: var(--Soft-blue);}
     margin: 5%;}
 #cred{padding-top: 10%;
     color:var(--Soft-blue);
-    font-weight: 300;}
+    font-weight: 300;
+    font-size: 12px;}
 #auth{padding-top: 10%;
     color: var(--white);
     font-weight: 300;
-margin-left: 1%;}
+    margin-left: 1%;
+    font-size: 12px;}
 #auth:hover{
         color: var(--Cyan);
         cursor: pointer;
